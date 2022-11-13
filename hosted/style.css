@@ -50,7 +50,7 @@ nav:nth-child(1) {
 .domoForm {
     border: 2px solid #338acc;
     height: 35px;
-    width: 700px;
+    width: 1000px;
     margin-top:0px;
     padding-top:10px;
     background-color: #55acee;
@@ -63,8 +63,11 @@ nav:nth-child(1) {
     width: 75px;
     margin-left: 10px;
     font-size: 1.2em;
-    float: left;
     color: white;
+}
+
+#nameLabel {
+    float: left;
 }
 
 .domoForm input[type=text] {
@@ -244,7 +247,7 @@ h3.domoName {
     width: 200px;
     font-weight: bold;
     padding-left: 65px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 h3.domoAge {
@@ -253,7 +256,25 @@ h3.domoAge {
     width: 100px;
     font-weight: bold;
     padding-right: 40px;
-    font-size: 1.5em;
+    font-size: 1.2em;
+}
+
+h3.domoMoney {
+    float:right;
+    text-align: left;
+    width: 100px;
+    font-weight: bold;
+    padding-right: 40px;
+    font-size: 1.2em;
+}
+
+#giveMoney {
+    /* float:right; */
+    text-align: center;
+    width: 110px;
+    padding-right: 0px;
+    margin-top: 10px;
+    font-size: 1em;
 }
 
 .domo:first-child {
